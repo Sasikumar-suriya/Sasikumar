@@ -1,0 +1,23 @@
+body{
+    background-color:black;
+    
+}
+.second{
+    position:relative;
+    background-color:gray;
+    border:1px solid black;
+    width:95%;
+    height:700px;
+    margin:30px;
+  
+}
+.third{
+    position: absolute;
+height:500px;
+width:400px;
+top:30px;
+left:550px;
+}
+input{
+    padding:5px;
+}

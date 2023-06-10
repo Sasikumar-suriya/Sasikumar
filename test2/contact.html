@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+   
+        <div class="second">
+            <div class="third">
+                <h2 style="text-align: center;">Contact Us</h2>
+                Type of Query<br>
+                <input type="text" list="queries" placeholder="food related issue">
+                <datalist id="queries">
+                    <option>food related issue</option>
+                    <option>order related issue</option>
+                    <option>price related issue</option>
+                    <option>packing related issue</option>
+                </datalist><br><br>
+                Name<br>
+                <input type="text" name="name" placeholder="Enter your name"><br><br>
+                Email<br>
+                <input type="email" name="email" placeholder="enter your mail"><br><br>
+                Phone<br>
+                <input type="number" name="phone" placeholder="enter your mobile no"><br><br>
+                Are you a member of Online FoodShop
+                <input type="radio" name="mem">Yes
+                <input type="radio" name="mem">No<br><br>
+                Ellaborate your query<br>
+                <textarea></textarea><br><br>
+                <input type="submit" value="Submit"onclick="myfunction_3()">
+                <input type="reset" value="reset">
+            </div>
+        </div>
+        <script>
+            function myfunction_3(){
+                alert("your response has been submitted");
+            }
+        </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+.container-fluid{
+    text-align:center;
+    background-color:lavender;
+}
+ul{
+    list-style-type:none;
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+}
+li>a{
+    text-decoration:none;
+    margin-right:10px;
+    margin-left:10px;
+    border:3px solid goldenrod;
+    padding:10px;
+    border-radius:10px;
+    color:goldenrod;
+    
+}
+li>a:hover{
+    background-color:gold;
+    color:white;
+}
+.one{
+    width:100%;
+    height:600px;
+}
+.two{
+    position:relative;
+    display:inline-block;
+    width:600px;
+    height:200px;
+    margin:50px 40px 10px 40px;
+    text-align:left;
+    
+
+}
+.pic1{
+    display:inline-block;
+    border:3px solid goldenrod;
+    width:200px;
+    height:200px;
+    border-radius:10px;
+}
+.pic1>img{
+    border-radius:10px;
+    width:200px;
+    height:200px;
+}
+.pic1>img:hover{
+    opacity:0.7;
+}
+.six{
+    position:absolute;
+    display:inline-block;
+    width:400px;
+    height:200px;
+
+}
+.six>p{
+    margin-left:10px;
+}
+.head1{
+    display: inline-block;
+    margin-left:10px;
+}
+.price{
+    display:inline-block;
+    margin-left:150px;
+    color:goldenrod;
+}
+
