@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+} 
+.container{
+    border:1px solid black;
+    width:400px;
+    height:700px;
+    padding:10px;
+    background-color:lavender;
+
+}
+h2{
+   text-align:center;
+}
+.head1{
+    display:inline-block;
+    border-radius: 60%;
+    background-color:mediumseagreen;
+    color:white;
+    padding:10px;
+}
+.head2{
+  display:inline-block;
+
+}
+.input{
+  width:380px;
+  background-color:lightgray;
+  border:none;
+}
+button{
+  width:390px;
+  padding:5px;
+  background-color:mediumseagreen;
+  border-radius:5px;
+  border:none;
+  text-align:center;
+  color:white;
+}
+.anchor{
+    position:relative;
+    width:390px;
+    height:50px;
+  
+}
+.two,.three{
+    position:absolute;
+    display:inline-block;
+    width:100px;
+    height:50px;
+
+}
+.three{
+    text-align:right;
+    width:150px;
+    right:0px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <h3 class="head1">1</h3>
+        <h3 class="head2">Your Basic Info</h3><br>
+        <b>Name:</b><br>
+        <input type="text" name="Fname" class="input"><br><br>
+        <b>Email:</b><br>
+        <input type="email" name="mail" class="input"><br><br>
+        <b>Password:</b><br>
+        <input type="password" name="pwd" class="input"><br><br>
+        <b>Gender:</b><br>
+        <input type="radio" name="gender">Male<br>
+        <input type="radio" name="gender">Female<br>
+        <h3 class="head1">2</h3>
+        <h3 class="head2">Your Profile</h3><br>
+        <b>Address:</b><br>
+        <textarea class="input"></textarea><br><br>
+        <b>Phone no:</b><br>
+         <input type="phone" name="mobile" class="input"><br><br>
+        <button>Sign Up</button><br><br>
+        <div class="anchor">
+        <div class="two"><a href="">Create new</a></div>
+        <div class="three"><a href="">Forgot password</a></div>
+        </div>
+    </div>
+    
+</body>
+</html>

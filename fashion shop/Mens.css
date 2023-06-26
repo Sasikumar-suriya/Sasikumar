@@ -1,0 +1,90 @@
+body{
+    background-image:linear-gradient(black,darkgray,white);
+}
+
+.one{
+    width:100%;
+    height:100vh;
+   
+    background-size:100% 100vh;
+    text-align:center;
+    
+}
+#head1{
+    text-transform: uppercase;
+    font-weight:bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 3px 3px 5px blue;
+    color:white;
+
+}
+.two,.three,.four,.five,.six,.seven{
+    position:relative;
+    width:280px;
+    height:300px;
+    border-radius:10px;
+    display:inline-block;
+    margin:20px 50px 0px 50px;
+    text-align:center;
+    box-shadow:2px 2px 3px white;
+    
+}
+.two{
+    background-image: url("men4.jpg");
+    background-size:280px 300px;
+}
+
+.three{
+    background-image: url("men3.jpg");
+    background-size:280px 300px;
+}
+.four{
+    background-image: url("men1.jpg");
+    background-size:280px 300px;
+}
+.five{
+    background-image: url("men2.avif");
+    background-size:280px 300px;
+}
+.six{
+    background-image: url("men5.jpg");
+    background-size:280px 300px;
+}
+.seven{
+    background-image: url("men6.jpg");
+    background-size:280px 300px;
+}
+.second{
+    position:absolute;
+    width:100%;
+    height:210px;
+    top:80px;
+    
+}
+.p1{
+    
+    font-size:25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    text-shadow: 5px 5px 5px blue;
+    color:white;
+    
+}
+.p2{
+    font-size:29px;
+    font-weight:bold;
+    color:white;
+    text-shadow: 5px 4px 5px green;
+}
+.second>button{
+    padding:5px;
+    border-radius:10px;
+    background-color:green;
+    color:white;
+    margin:0px;
+}
+.second>button:hover{
+    background-color:greenyellow;
+    color:black;
+    cursor: pointer;
+}
